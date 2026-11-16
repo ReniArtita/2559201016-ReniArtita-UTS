@@ -49,18 +49,8 @@ Tema C: Portofolio pribadi. Objek: Reni Artita sebagai calon pengembang web dan 
 - Tata letak katalog berantakan di ukuran layar berbeda.
  Kartu tidak rapi saat layar dikecilkan. 
  Solusinya memakai CSS Grid untuk katalog dan mengatur jumlah kolom lewat media query HP dan desktop.
-- Validasi formulir tidak sesuai harapan.
- Pesan error bawaan browser berbeda-beda dan nomor HP lolos meski formatnya salah. 
- Solusinya menambahkan atribut `pattern`, `minlength`, `required`, lalu pesan error sendiri di bawah kolom dengan JavaScript.
-- Pencarian, filter, dan urutan katalog tidak sinkron.
- Hasil filter hilang saat mengetik di kolom cari. 
- Solusinya menyimpan data proyek dalam array objek, lalu menggabungkan kondisi cari dan kategori dalam satu fungsi render.
-- Peta Google Maps tidak tampil.
- Penyebabnya URL embed salah atau koneksi internet lambat.
- Solusinya memakai URL dengan parameter `output=embed` dan atribut `loading="lazy"`.
-- Kesalahan saat validasi W3C.
- Muncul peringatan seperti atribut `alt` kosong atau tag tidak tertutup.
-  Solusinya memeriksa lewat W3C Validator dan memperbaiki satu per satu.
+- Saat mengunggah ke GitHub yaitu folder css, js, dan img awalnya tidak terbentuk dan file tersebar di halaman utama,
+ lalu diperbaiki dengan me-rename file dari GitHub.
 
 ## Tautan
 - Repositori: https://github.com/ReniArtita/UTS-PemrogramanWeb 

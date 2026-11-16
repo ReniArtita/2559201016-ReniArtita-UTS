@@ -64,4 +64,4 @@ Tema C: Portofolio pribadi. Objek: Reni Artita sebagai calon pengembang web dan 
 
 ## Tautan
 - Repositori: https://github.com/ReniArtita/UTS-PemrogramanWeb 
-- GitHub Pages/Netlify (opsional):
+- GitHub Pages/Netlify (opsional): https://reniartita.github.io/UTS-PemrogramanWeb/

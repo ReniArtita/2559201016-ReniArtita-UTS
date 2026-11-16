@@ -53,5 +53,5 @@ Tema C: Portofolio pribadi. Objek: Reni Artita sebagai calon pengembang web dan 
  lalu diperbaiki dengan me-rename file dari GitHub.
 
 ## Tautan
-- Repositori: https://github.com/ReniArtita/UTS-PemrogramanWeb 
-- GitHub Pages/Netlify (opsional): https://reniartita.github.io/UTS-PemrogramanWeb/
+- Repositori: https://github.com/ReniArtita/2559201016-ReniArtita-UTS 
+- GitHub Pages/Netlify (opsional): https://reniartita.github.io/2559201016-ReniArtita-UTS/

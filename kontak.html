@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak - Portofolio Reni Artita</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header-situs">
+    <a class="logo" href="index.html">Reni Artita</a>
+    <button type="button" class="tombol-menu" id="tombol-menu" aria-label="Buka menu" aria-expanded="false" aria-controls="menu-utama">&#9776;</button>
+    <nav aria-label="Navigasi utama">
+      <ul class="menu" id="menu-utama">
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="tentang.html">Tentang</a></li>
+        <li><a href="katalog.html">Katalog</a></li>
+        <li><a href="kontak.html" aria-current="page">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Hubungi Saya</h1>
+
+    <section class="info-kontak" aria-labelledby="judul-info">
+      <h2 id="judul-info">Informasi Kontak</h2>
+      <address>
+        <p>Lokasi : Pangkal Pinang, Kepulauan Bangka Belitung</p>
+        <p>Email : riyanryan334@gmail.com</p>
+      </address>
+      <ul class="sosmed">
+        <li><a href="https://github.com/ReniArtita">GitHub</a></li>
+        <li><a href="https://instagram.com/reni_artita">Instagram</a></li>
+      </ul>
+    </section>
+
+    <section class="peta" aria-labelledby="judul-peta">
+      <h2 id="judul-peta">Lokasi</h2>
+      <iframe title="Peta lokasi Universitas Pertiba" src="https://www.google.com/maps?q=Universitas+Pertiba&amp;output=embed" loading="lazy"></iframe>
+    </section>
+
+    <section class="form-kontak" aria-labelledby="judul-form">
+      <h2 id="judul-form">Kirim Pesan</h2>
+      <form id="form-kontak" action="#" method="post">
+        <div class="baris-form">
+          <label for="nama">Nama</label>
+          <input type="text" id="nama" name="nama" required>
+          <span class="pesan-error" aria-live="polite"></span>
+        </div>
+        <div class="baris-form">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+          <span class="pesan-error" aria-live="polite"></span>
+        </div>
+        <div class="baris-form">
+          <label for="hp">Nomor HP</label>
+          <input type="tel" id="hp" name="hp" pattern="[0-9]{10,13}" title="Masukkan 10 sampai 13 digit angka" required>
+          <span class="pesan-error" aria-live="polite"></span>
+        </div>
+        <div class="baris-form">
+          <label for="tujuan">Tujuan</label>
+          <select id="tujuan" name="tujuan" required>
+            <option value="">-- Pilih tujuan --</option>
+            <option value="kolaborasi">Kolaborasi</option>
+            <option value="tanya-proyek">Tanya proyek</option>
+            <option value="lainnya">Lainnya</option>
+          </select>
+          <span class="pesan-error" aria-live="polite"></span>
+        </div>
+        <div class="baris-form">
+          <label for="pesan">Pesan</label>
+          <textarea id="pesan" name="pesan" rows="5" minlength="10" maxlength="500" required></textarea>
+          <span class="pesan-error" aria-live="polite"></span>
+        </div>
+        <button type="submit" class="tombol">Kirim</button>
+        <p id="pesan-sukses" class="pesan-sukses" hidden>Terima kasih! Pesan Anda berhasil dikirim.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer-situs">
+    <p>&copy; 2026 Reni Artita - Universitas Pertiba</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Katalog Proyek - Portofolio Reni Artita</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header-situs">
+    <a class="logo" href="index.html">Reni Artita</a>
+    <button type="button" class="tombol-menu" id="tombol-menu" aria-label="Buka menu" aria-expanded="false" aria-controls="menu-utama">&#9776;</button>
+    <nav aria-label="Navigasi utama">
+      <ul class="menu" id="menu-utama">
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="tentang.html">Tentang</a></li>
+        <li><a href="katalog.html" aria-current="page">Katalog</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section aria-labelledby="judul-katalog">
+      <h1 id="judul-katalog">Katalog Proyek dan Karya</h1>
+      <p>Kumpulan proyek dan tugas yang pernah saya kerjakan.</p>
+
+      <div id="kontrol-katalog" class="kontrol-katalog"></div>
+
+      <div class="grid-katalog" id="grid-katalog">
+        <article class="kartu" data-kategori="Web">
+          <img src="img/data_mahasiswa.png" alt="Tangkapan layar identitas mahasiswa">
+          <h2>Data Mahasiswa</h2>
+          <p>Program sederhana untuk mengelola data mahasiswa menggunakan bahasa pemrograman PHP</p>
+          <p class="meta">Kategori: Web | Tahun: 2026</p>
+        </article>
+        <article class="kartu" data-kategori="Web">
+          <img src="img/potofolio.png" alt="Tangkapan layar website portofolio pribadi">
+          <h2>Website Portofolio</h2>
+          <p>Website profil multihalaman yang dibuat dengan HTML, CSS, dan JavaScript murni.</p>
+          <p class="meta">Kategori: Web | Tahun: 2026</p>
+        </article>
+        <article class="kartu" data-kategori="Basis Data">
+          <img src="img/erd.jpeg" alt="Diagram ERD untuk tugas basis data">
+          <h2>Desain ERD Basis Data</h2>
+          <p>Pemodelan ERD dan normalisasi tabel dari 1NF sampai BCNF.</p>
+          <p class="meta">Kategori: Basis Data | Tahun: 2026</p>
+        </article>
+        <article class="kartu" data-kategori="Jaringan">
+          <img src="img/topologi.png" alt="Topologi jaringan star pada Cisco Packet Tracer">
+          <h2>Lab Topologi Star</h2>
+          <p>Praktikum topologi star di Cisco Packet Tracer lengkap dengan tabel MAC address.</p>
+          <p class="meta">Kategori: Jaringan | Tahun: 2026</p>
+        </article>
+        <article class="kartu" data-kategori="Jaringan">
+          <img src="img/vlsm.png" alt="Hasil perhitungan subnetting VLSM">
+          <h2>Subnetting VLSM</h2>
+          <p>Latihan pembagian alamat IP dengan metode VLSM untuk beberapa jaringan.</p>
+          <p class="meta">Kategori: Jaringan | Tahun: 2026</p>
+        </article>
+        <article class="kartu" data-kategori="Web">
+          <img src="img/profil.png" alt="Halaman profil diri sederhana dengan foto dan data diri">
+          <h2>Profil Diri HTML Dasar</h2>
+          <p>Halaman profil sederhana pertama saya yang berisi foto, data diri, dan tombol sapaan.</p>
+          <p class="meta">Kategori: Web | Tahun: 2026</p>
+        </article>
+      </div>
+      <p id="pesan-kosong" class="pesan-kosong" hidden>Tidak ada proyek yang cocok.</p>
+    </section>
+  </main>
+
+  <footer class="footer-situs">
+    <p>&copy; 2026 Reni Artita - Universitas Pertiba</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

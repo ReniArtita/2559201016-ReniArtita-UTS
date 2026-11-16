@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beranda - Portofolio Reni Artita</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header-situs">
+    <a class="logo" href="index.html">Reni Artita</a>
+    <button type="button" class="tombol-menu" id="tombol-menu" aria-label="Buka menu" aria-expanded="false" aria-controls="menu-utama">&#9776;</button>
+    <nav aria-label="Navigasi utama">
+      <ul class="menu" id="menu-utama">
+        <li><a href="index.html" aria-current="page">Beranda</a></li>
+        <li><a href="tentang.html">Tentang</a></li>
+        <li><a href="katalog.html">Katalog</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="judul-hero">
+      <div class="hero-teks">
+        <p class="sapaan">Halo, saya</p>
+        <h1 id="judul-hero">Reni Artita</h1>
+        <p class="tagline">Mahasiswa Sistem dan Teknologi Informasi yang tertarik pada pemrograman, desain website, dan pengembangan aplikasi.</p>
+        <a class="tombol" href="katalog.html">Lihat Proyek Saya</a>
+      </div>
+      <img class="foto-hero" src="img/foto-profil.jpg" alt="Foto Reni Artita memakai almamater Universitas Pertiba">
+    </section>
+
+    <section class="ringkasan" aria-labelledby="judul-ringkasan">
+      <h2 id="judul-ringkasan">Sekilas Tentang Saya</h2>
+      <p>Saya mahasiswa semester 3 di Universitas Pertiba. Saya senang mempelajari hal baru, terutama yang berhubungan dengan teknologi, dan sedang belajar membangun website dengan HTML, CSS, dan JavaScript. Halaman ini berisi profil dan kumpulan karya yang pernah saya kerjakan.</p>
+    </section>
+
+    <section class="unggulan" aria-labelledby="judul-unggulan">
+      <h2 id="judul-unggulan">Proyek Unggulan</h2>
+      <div class="grid-unggulan">
+        <article class="kartu">
+          <img src="img/data_mahasiswa.png" alt="Tangkapan layar website Identitas Mahasiswa">
+          <h3>Data Mahasiswa</h3>
+          <p>Program sederhana untuk mengelola data mahasiswa 
+            menggunakan bahasa pemrograman PHP</p>
+        </article>
+        <article class="kartu">
+          <img src="img/potofolio.png" alt="Tangkapan layar website portofolio pribadi">
+          <h3>Website Portofolio</h3>
+          <p>Website profil multihalaman yang dibuat dengan HTML dan CSS murni.</p>
+        </article>
+        <article class="kartu">
+          <img src="img/topologi.png" alt="Topologi jaringan star pada Cisco Packet Tracer">
+          <h3>Lab Jaringan Komputer</h3>
+          <p>Praktikum topologi star dan subnetting VLSM di Packet Tracer.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-situs">
+    <p>&copy; 2026 Reni Artita - Universitas Pertiba</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
